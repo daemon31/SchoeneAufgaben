@@ -1,14 +1,15 @@
-/**
- * Uebung 5: Schleifen
- */
 
 /**
  * 1) Schreibe deine for Schleife.
  */
-function aufgabe1() {
+function aufgabe1()
+{
   console.debug("Aufgabe 1 ==========================");
+  for (let i=1; i<=5; i++)  {
+    console.debug("Nummer: " + i)
 
-  //ToDo: füge ab hier Deinen Code ein
+  }
+
 }
 
 /**
@@ -19,7 +20,7 @@ function aufgabe2() {
 
   for(let i=1; i<6; i++) {
     if(i==3) {
-      //ToDo: füge ab hier Deinen Code ein
+      break
     }
     console.debug("Hallo Nummer: " + i)
   }
@@ -32,7 +33,7 @@ function aufgabe3() {
   console.debug("Aufgabe 3 ==========================");
 
   for(let i=5; i>0; i--) {
-    //ToDo: füge ab hier Deinen Code ein
+    
     console.debug("Hallo Nummer: " + i)
   }
 }
