@@ -42,28 +42,35 @@ function aufgabe3() {
  * 4) Schreibe deine verschachtelte for Schleife.
  */
 function aufgabe4() {
-  console.debug("Aufgabe 4 ==========================")
-
-  //ToDo: füge ab hier Deinen Code ein
-}
+  console.debug("Aufgabe 4 =========================="); {
+  for (let i=1; i<=3; i++) {
+    for (let j=1; j<=3; j++)
+      console.debug("Zweite Schleife j:", i)
+  }
+  console.debug("Erste Schleife i:", i);
+    }
+  }
 
 /**
  * 5) Schreibe deine while Schleife.
  */
-function aufgabe5() {
-  console.debug("Aufgabe 5 ==========================");
-
-  let i=1
-  //ToDo: füge ab hier Deinen Code ein
+//function aufgabe5() {
+  //console.debug("Aufgabe 5 ==========================");{
+  //let i=1
+ // while (let i=1; i<6; i++) {
+   // console.debug(i)
+  }
 }
-
+  }
 /**
  * 6) Schreibe deine do while Schleife
  */
 function aufgabe6() {
   console.debug("Aufgabe 6 ==========================");
-
-  //ToDo: füge ab hier Deinen Code ein
+  let i=1 {
+    do (i<6; i+)
+    console.debug(i)
+  }
 }
 
 /**
