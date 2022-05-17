@@ -8,7 +8,7 @@
 function aufgabe1() {
   console.debug("Aufgabe 1 ==========================")
 
-  //ToDo: füge ab hier Deinen Code ein
+  console.debug("Diese Funktion kenne ich bereits!")
 }
 
 /**
@@ -16,9 +16,9 @@ function aufgabe1() {
  */
 function aufgabe2() {
   console.debug("Aufgabe 2 ==========================")
-
-  //ToDo: füge ab hier Deinen Code ein
-
+  function sagHallo(name) {
+    console.debug("Hallo" + name)
+  }
   sagHallo("Peter")
 }
 
@@ -31,8 +31,7 @@ function aufgabe3() {
   function sagBye(name) {
     console.debug("Bye " + name)
   }
-
-  //ToDo: füge ab hier Deinen Code ein
+  sagBye("Dima")
 }
 
 /**
@@ -40,8 +39,10 @@ function aufgabe3() {
  */
 function aufgabe4() {
   console.debug("Aufgabe 4 ==========================");
-
-  //ToDo: füge ab hier Deinen Code ein
+  function willkommenZurueck(name) {
+      console.debug("Da bist du ja wieder" + name)
+  }‚
+    willkommenZurueck("Dima")
 }
 
 /**
