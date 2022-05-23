@@ -1,9 +1,12 @@
 import React from 'react';
+import likeButton from "./LikeButton";
 
 class UnlikeButton extends React.Component{
     constructor(props) {
         super(props);
-        /* ToDo: Setze hier den initialen state von liked auf false */
+         this.state = {
+             liked : false
+        }
 
     }
 

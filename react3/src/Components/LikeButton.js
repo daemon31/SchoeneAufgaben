@@ -2,9 +2,10 @@ import React from 'react';
 
 class LikeButton extends React.Component{
     constructor(props) {
-        super(props); // Modify le todo
-        /* ToDo: Setze hier den initialen state von liked auf false */
-
+        super(props);
+        this.state = {
+            liked : false
+        }
     }
 
     render = () => {
